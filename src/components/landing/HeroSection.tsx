@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles, ArrowRight } from "lucide-react";
+import { ArrowRight, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuthModal } from "@/contexts/AuthModalContext";
 import AnimatedArrow from "./AnimatedArrow";
@@ -29,8 +29,15 @@ const HeroSection = () => {
             transition={{ delay: 0.2, duration: 0.5 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary mb-8"
           >
-            <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium">By Barbozza</span>
+            <Github className="w-4 h-4" />
+            <a
+              href="https://github.com/GabrielTheDEV"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium underline hover:text-primary/80 transition-colors"
+            >
+              By Barbozza
+            </a>
           </motion.div>
 
           {/* Headline */}
