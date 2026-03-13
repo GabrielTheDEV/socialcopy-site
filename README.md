@@ -1,4 +1,4 @@
 
 # Backend
 
-- Backend https://github.com/GabrielTheDEV/API_SocialCopy_V2
+Backend: https://github.com/GabrielTheDEV/API_SocialCopy
